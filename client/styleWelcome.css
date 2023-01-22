@@ -1,0 +1,46 @@
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Style the textbox input */
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Add some extra styling to the admin button */
+  button.admin {
+    background-color: #000080;
+  }
+  
+  button.admin:hover {
+    background-color: #0000FF;
+  }
+
+  #centerDiv {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -150px;
+  }
+
+button.toggle{
+  display: none;
+}
